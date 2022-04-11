@@ -13,6 +13,7 @@
 		C4BA9BF627FB469C00E8251F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4BA9BF427FB469C00E8251F /* Main.storyboard */; };
 		C4BA9BF827FB469D00E8251F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4BA9BF727FB469D00E8251F /* Assets.xcassets */; };
 		C4BA9BFB27FB469D00E8251F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4BA9BF927FB469D00E8251F /* LaunchScreen.storyboard */; };
+		C4BA9C0727FB5BEA00E8251F /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BA9C0627FB5BEA00E8251F /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		C4BA9BF727FB469D00E8251F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4BA9BFA27FB469D00E8251F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C4BA9BFC27FB469D00E8251F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4BA9C0627FB5BEA00E8251F /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				C4BA9BEE27FB469C00E8251F /* AppDelegate.swift */,
 				C4BA9BF027FB469C00E8251F /* SceneDelegate.swift */,
 				C4BA9BF227FB469C00E8251F /* ViewController.swift */,
+				C4BA9C0627FB5BEA00E8251F /* SecondViewController.swift */,
 				C4BA9BF427FB469C00E8251F /* Main.storyboard */,
 				C4BA9BF727FB469D00E8251F /* Assets.xcassets */,
 				C4BA9BF927FB469D00E8251F /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4BA9C0727FB5BEA00E8251F /* SecondViewController.swift in Sources */,
 				C4BA9BF327FB469C00E8251F /* ViewController.swift in Sources */,
 				C4BA9BEF27FB469C00E8251F /* AppDelegate.swift in Sources */,
 				C4BA9BF127FB469C00E8251F /* SceneDelegate.swift in Sources */,
@@ -306,7 +310,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -334,7 +338,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
